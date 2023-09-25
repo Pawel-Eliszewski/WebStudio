@@ -1,0 +1,22 @@
+.mobile__container {
+    position: fixed;
+    padding: 48px 35px 48px 35px;
+    top: 0%;
+    left: 0%;
+    transform: translateX(100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    background: var(--text-color2);
+    box-shadow: var(--box-shadow2);
+    transition-duration: var(--transition-duration-main);
+    transition-timing-function: var(--transition-timing-function-main);
+    overflow: hidden;
+}
+
+.mobile__container.isOpen {
+    transform: none;
+}

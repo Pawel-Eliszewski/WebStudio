@@ -1,0 +1,27 @@
+.work__section {
+    padding-top: 50px;
+}
+
+.work__container {
+    display: none;
+    letter-spacing: 0.03em;
+}
+
+.work__list {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+
+    .work__section {
+        padding-top: 94px;
+    }
+
+    .work__container {
+        display: block;
+    }
+}

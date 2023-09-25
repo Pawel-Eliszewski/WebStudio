@@ -1,0 +1,21 @@
+.team__section {
+    background-color: var(--background-color2);
+}
+
+.team__list {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team__item {
+    box-shadow: var(--box-shadow);
+    border-radius: 0px 0px 4px 4px;
+    background: var(--text-color2);
+    height: auto;
+}

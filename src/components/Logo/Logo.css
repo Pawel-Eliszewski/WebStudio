@@ -1,0 +1,27 @@
+.logo {
+    font-family: "Raleway";
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    font-weight: 900;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.logo:focus,
+.logo:hover,
+.logo:visited {
+    color: unset;
+}
+
+.logo-span {
+    color: var(--hover-color);
+}
+
+@media screen and (min-width: 1200px) {
+
+    .logo {
+        font-size: 26px;
+    }
+}

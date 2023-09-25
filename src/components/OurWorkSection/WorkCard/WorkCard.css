@@ -1,0 +1,21 @@
+.work-card {
+    position: relative;
+}
+
+.work-card__img {
+    width: 370px;
+    height: 294px;
+}
+
+.work-card__overlay {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(var(--gradient-color2), var(--gradient-color2));
+    z-index: 1;
+    width: 370px;
+    padding-block: 27px;
+    bottom: 0px;
+    color: var(--background-color2);
+}

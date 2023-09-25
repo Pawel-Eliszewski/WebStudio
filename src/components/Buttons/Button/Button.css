@@ -1,0 +1,62 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    color: var(--text-color2);
+    background-color: var(--hover-color);
+    padding-block: 10px;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    box-shadow: var(--box-shadow-btn);
+    border-radius: 4px;
+    border: none;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--hover-color2);
+    transition-duration: var(--transition-duration-main);
+    transition-timing-function: var(--transition-timing-function-main);
+}
+
+.btn--form-newsletter {
+    position: relative;
+    justify-content: unset;
+    height: 50px;
+    padding: 10px 0 10px 40px;
+    letter-spacing: 0.12em;
+}
+
+.btn--form-newsletter__icon {
+    width: 24px;
+    height: 24px;
+    fill: var(--text-color2);
+    position: absolute;
+    right: 28px;
+    top: 13px;
+    bottom: 13px;
+}
+
+.btn--filters {
+    color: var(--logo-color2);
+    padding: 6px 22px;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    width: 120px;
+    box-shadow: none;
+    background-color: var(--background-color2);
+}
+
+.btn--filters:hover,
+.btn--filters:focus {
+    background-color: var(--hover-color);
+    color: var(--text-color2);
+    box-shadow: var(--box-shadow-hover);
+    transition-duration: var(--transition-duration-main);
+    transition-timing-function: var(--transition-timing-function-main);
+}

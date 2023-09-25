@@ -1,0 +1,19 @@
+.mobile__burger-btn {
+    display: flex;
+    padding: 0;
+    background: none;
+    border: none;
+}
+
+.mobile__burger-icon {
+    width: 24px;
+    height: 24px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .mobile__burger-btn,
+    .mobile__burger-icon {
+        display: none;
+    }
+}

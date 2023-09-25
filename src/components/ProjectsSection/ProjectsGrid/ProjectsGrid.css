@@ -1,0 +1,16 @@
+.projects__grid {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+@media screen and (min-width:480px) {
+    .projects__grid {
+        padding-top: 131px;
+    }
+}

@@ -1,0 +1,28 @@
+.button-close {
+    width: 30px;
+    height: 30px;
+    background-color: var(--text-color2);
+    border: var(--border-main);
+    border-radius: 50%;
+    position: absolute;
+    right: 13px;
+    top: 13px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-close__icon {
+    width: 19px;
+    height: 19px;
+}
+
+.button-close:hover,
+.button-close:focus {
+    transition-duration: var(--transition-duration-main);
+    transition-timing-function: var(--transition-timing-function-main);
+    color: var(--text-color2);
+    background-color: var(--hover-color);
+}

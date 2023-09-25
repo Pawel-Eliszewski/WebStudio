@@ -1,0 +1,130 @@
+.contact__list--mobile {
+    margin-bottom: 20px;
+    list-style: none;
+    font-weight: 500;
+    line-height: 1;
+    padding-block: 20px;
+    letter-spacing: 0.02em;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.contact__link-phone--mobile {
+    display: flex;
+    align-items: center;
+    color: var(--hover-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+}
+
+.contact__link-mail--mobile {
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    fill: var(--text-color);
+    font-size: 20px;
+}
+
+.contact__link-mail--header,
+.contact__link-phone--header {
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    fill: var(--svg-color3);
+}
+
+.contact__icon-mail--mobile {
+    width: 20px;
+    height: 16px;
+    margin-right: 7px;
+}
+
+.contact__icon-phone--mobile {
+    width: 20px;
+    height: 26px;
+    margin-right: 5px;
+    fill: var(--hover-color);
+}
+
+.contact__icon-mail--header {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+.contact__icon-phone--header {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.contact__link:hover,
+.contact__link:focus,
+.contact__icon:hover,
+.contact__icon:focus {
+    transition-duration: var(--transition-duration-main);
+    transition-timing-function: var(--transition-timing-function-main);
+    fill: var(--hover-color);
+    color: var(--hover-color);
+}
+
+@media screen and (min-width: 480px) {
+    .contact__list--mobile {
+        margin-bottom: 64px;
+        gap: 32px;
+    }
+
+    .contact__link-phone--mobile {
+        font-size: 34px;
+    }
+
+    .contact__link-mail--mobile {
+        font-size: 24px;
+    }
+
+    .contact__icon-mail--mobile {
+        width: 25px;
+        height: 20px;
+    }
+
+    .contact__icon-phone--mobile {
+        width: 22px;
+        height: 32px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contact__list--header {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contact__list--header {
+        font-weight: 500;
+        line-height: 1.17;
+        letter-spacing: .02em;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        padding-block: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .contact__list--header {
+        display: flex;
+        flex-direction: row;
+        padding-block: 32px;
+        gap: 30px;
+        margin: 0;
+    }
+}
