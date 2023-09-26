@@ -21,7 +21,12 @@ export const ContactLinks = ({ styles }) => {
         </a>
       </li>
       <li className={"contact__item" + styles}>
-        <a className={"contact__link-phone" + styles} href="tel:+48111111111">
+        <a
+          className={"contact__link-phone" + styles}
+          href="tel:+48111111111"
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+        >
           <svg className={"contact__icon-phone" + styles}>
             <use href={icons + "#icon-phone"} />
           </svg>

@@ -5,7 +5,7 @@ import { ContactLinks } from "../ContactLinks/ContactLinks";
 import { SocialsMobileMenu } from "../Socials/SocialsMobileMenu/SocialsMobileMenu";
 import "./MobileMenu.css";
 /**
- * @param {{ onClick?: (ev?: import('react').MouseEvent) => void, styles: 'isOpen' | '' }} props
+ * @param {{ onClick?: (ev?: import('react').MouseEvent) => void, styles: '' | 'isOpen' }} props
  */
 export const MobileMenu = ({ onClick, styles }) => {
   return (

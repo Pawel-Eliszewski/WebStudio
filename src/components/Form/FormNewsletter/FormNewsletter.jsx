@@ -11,7 +11,11 @@ export const FormNewsletter = () => {
   );
 
   return (
-    <form className="form-newsletter">
+    <form
+      className="form-newsletter"
+      action="https://formspree.io/f/xnqkgywe"
+      method="POST"
+    >
       <fieldset className="form-newsletter__fieldset">
         <label className="form-newsletter__title" htmlFor="newsletter">
           <TitleSmall title="subscribe to our newsletter" />
@@ -21,7 +25,7 @@ export const FormNewsletter = () => {
           className="form-newsletter__input"
           type="email"
           placeholder="E-mail"
-          name="leave your e-mail address"
+          name="Newsletter subscriber"
           autoComplete="list"
           required
         />

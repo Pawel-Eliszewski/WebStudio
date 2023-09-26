@@ -3,7 +3,7 @@ import { ButtonClose } from "../Buttons/ButtonClose/ButtonClose";
 import { Form } from "../Form/Form";
 import "./Modal.css";
 /**
- * @param {{ styles: 'isOpen' | "", onClick?: (ev?: import('react').MouseEvent) => void }} props
+ * @param {{ onClick?: (ev?: import('react').MouseEvent) => void, styles: '' | 'isOpen' }} props
  */
 export const Modal = ({ onClick, styles }) => {
   return (

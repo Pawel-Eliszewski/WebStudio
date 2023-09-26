@@ -16,7 +16,12 @@ export const Address = () => {
           </a>
         </li>
         <li className="address__item">
-          <a className="address__link" href="tel:+48111111111">
+          <a
+            className="address__link"
+            href="tel:+48111111111"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+          >
             +48 111 111 111
           </a>
         </li>

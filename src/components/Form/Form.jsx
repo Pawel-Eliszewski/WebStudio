@@ -6,7 +6,11 @@ export const Form = () => {
   return (
     <div className="form__wrapper">
       <h2 className="form__title">Leave your contact details</h2>
-      <form className="form">
+      <form
+        className="form"
+        action="https://formspree.io/f/xnqkgywe"
+        method="POST"
+      >
         <fieldset className="form__group">
           <label className="form__username__label" htmlFor="username">
             Name
@@ -15,7 +19,7 @@ export const Form = () => {
             id="username"
             className="form__username__input"
             type="text"
-            name="give your name"
+            name="Name"
             autoComplete="list"
             required
           />
@@ -31,7 +35,7 @@ export const Form = () => {
             id="phone"
             className="form__phone__input"
             type="tel"
-            name=" give your phone nr"
+            name="Tel"
             pattern="[0-9]{3}[0-9]{3}[0-9]{3}"
             autoComplete="list"
             required
@@ -48,7 +52,7 @@ export const Form = () => {
             id="email"
             className="form__email__input"
             type="email"
-            name="give your e-mail address"
+            name="Replay to"
             autoComplete="list"
             required
           />
@@ -58,13 +62,13 @@ export const Form = () => {
         </fieldset>
         <fieldset className="form__group__feedback">
           <label className="form__feedback__label" htmlFor="feedback">
-            Comment
+            Message
           </label>
           <textarea
             id="feedback"
             className="form__feedback__input"
-            name="leave your comment"
-            placeholder="Leave your comment"
+            name="Massage"
+            placeholder="Leave your message"
           ></textarea>
         </fieldset>
         <label className="form__legal__group" htmlFor="legal">
@@ -77,11 +81,21 @@ export const Form = () => {
           <span className="form__legal__title">
             {" "}
             I agree with the{" "}
-            <a className="form__legal__link" href="/">
+            <a
+              className="form__legal__link"
+              href="https://www.termsandcondiitionssample.com/"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+            >
               Terms & conditions
             </a>{" "}
             and{" "}
-            <a className="form__legal__link" href="/">
+            <a
+              className="form__legal__link"
+              href="https://www.privacypolicygenerator.info/"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+            >
               Privacy policy.
             </a>
           </span>

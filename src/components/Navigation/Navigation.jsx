@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { NavLink } from "react-router-dom";
 import "./Navigation.css";
 /**
@@ -37,4 +38,9 @@ export const Navigation = ({ onClick, styles }) => {
       </ul>
     </nav>
   );
+};
+
+Navigation.propTypes = {
+  onClick: PropTypes.func.isRequired,
+  styles: PropTypes.string.isRequired,
 };
