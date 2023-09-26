@@ -15,58 +15,58 @@ export const Socials = ({ ourSocials, memberSocials, styles }) => {
   return (
     <div className={"socials socials" + styles}>
       <ul className={"socials__list socials__list" + styles}>
-        <li className={"socials__item socials__item" + styles}>
-          <a
-            className={"socials__link socials__link" + styles}
-            href={setLinks(ourSocials, memberSocials).instagram}
-            target="_blank"
-            rel="nofollow noopener noreferrer"
-            title="Instagram"
-          >
+        <a
+          className={"socials__link socials__link" + styles}
+          href={setLinks(ourSocials, memberSocials).instagram}
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+          title="Instagram"
+        >
+          <li className={"socials__item socials__item" + styles}>
             <svg className={"socials__icon socials__icon" + styles}>
               <use href={icons + "#icon-instagram"} />
             </svg>
-          </a>
-        </li>
-        <li className={"socials__item socials__item" + styles}>
-          <a
-            className={"socials__link socials__link" + styles}
-            href={setLinks(ourSocials, memberSocials).twitter}
-            target="_blank"
-            rel="nofollow noopener noreferrer"
-            title="Twitter"
-          >
+          </li>
+        </a>
+        <a
+          className={"socials__link socials__link" + styles}
+          href={setLinks(ourSocials, memberSocials).twitter}
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+          title="Twitter"
+        >
+          <li className={"socials__item socials__item" + styles}>
             <svg className={"socials__icon socials__icon" + styles}>
               <use href={icons + "#icon-twitter"} />
             </svg>
-          </a>
-        </li>
-        <li className={"socials__item socials__item" + styles}>
-          <a
-            className={"socials__link socials__link" + styles}
-            href={setLinks(ourSocials, memberSocials).facebook}
-            target="_blank"
-            rel="nofollow noopener noreferrer"
-            title="Facebook"
-          >
+          </li>
+        </a>
+        <a
+          className={"socials__link socials__link" + styles}
+          href={setLinks(ourSocials, memberSocials).facebook}
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+          title="Facebook"
+        >
+          <li className={"socials__item socials__item" + styles}>
             <svg className={"socials__icon socials__icon" + styles}>
               <use href={icons + "#icon-facebook"} />
             </svg>
-          </a>
-        </li>
-        <li className={"socials__item socials__item" + styles}>
-          <a
-            className={"socials__link socials__link" + styles}
-            href={setLinks(ourSocials, memberSocials).linkedin}
-            target="_blank"
-            rel="nofollow noopener noreferrer"
-            title="Linkedin"
-          >
+          </li>
+        </a>
+        <a
+          className={"socials__link socials__link" + styles}
+          href={setLinks(ourSocials, memberSocials).linkedin}
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+          title="Linkedin"
+        >
+          <li className={"socials__item socials__item" + styles}>
             <svg className={"socials__icon socials__icon" + styles}>
               <use href={icons + "#icon-linkedin"} />
             </svg>
-          </a>
-        </li>
+          </li>
+        </a>
       </ul>
     </div>
   );

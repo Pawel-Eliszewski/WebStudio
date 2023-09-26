@@ -41,6 +41,6 @@ export const Navigation = ({ onClick, styles }) => {
 };
 
 Navigation.propTypes = {
-  onClick: PropTypes.func.isRequired,
+  onClick: PropTypes.func,
   styles: PropTypes.string.isRequired,
 };

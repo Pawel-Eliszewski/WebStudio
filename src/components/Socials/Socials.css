@@ -30,7 +30,6 @@
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    margin-bottom: 24px;
 }
 
 .socials__item--footer {
@@ -39,9 +38,8 @@
 }
 
 .socials__item:hover,
-.socials__item:focus,
-.socials__item:hover .socials__icon,
-.socials__item:focus .socials__icon {
+.socials__item:focus {
+    color: var(--text-color2);
     fill: var(--text-color2);
     background: var(--hover-color);
     cursor: pointer;
@@ -53,5 +51,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    fill: var(--svg-color2);
+}
+
+.socials__link:hover,
+.socials__link:focus {
     fill: var(--svg-color2);
 }

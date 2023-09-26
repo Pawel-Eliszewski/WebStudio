@@ -1,5 +1,6 @@
 .team-card {
     line-height: 1.19;
+    padding-bottom: 24px;
 }
 
 .team-card__img-wrapper {
