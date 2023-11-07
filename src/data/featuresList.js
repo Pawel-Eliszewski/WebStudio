@@ -1,3 +1,5 @@
+// simulation of backend data
+
 let featureName = "LOREM IPSUM";
 let featureInfo =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada";

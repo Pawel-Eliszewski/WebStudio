@@ -2,9 +2,8 @@
     padding-bottom: 50px;
 }
 
-/* ??? */
-@media screen and (min-height:900px) {
+@media screen and (min-width:1280px) {
     .projects {
-        /* min-height: 67.2vh; */
+        min-height: calc(100vh - 341px)
     }
 }

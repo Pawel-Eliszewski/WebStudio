@@ -1,3 +1,5 @@
+// simulation of backend data
+
 let instagram = "https://www.instagram.com/";
 let twitter = "https://www.twitter.com/";
 let facebook = "https://www.facebook.com/";

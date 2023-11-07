@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import "./Button.css";
 /**
- * @param {{ title: string, icon: {}, onClick?: (ev?: import('react').MouseEvent) => void,
+ * @param {{ title: string, icon?: {}, onClick?: (ev?: import('react').MouseEvent) => void,
  *  styles: '--form-newsletter' | '--hero', type: 'submit' | 'button' }} props
  */
 export const Button = ({ title, icon, onClick, styles, type }) => {

@@ -1,3 +1,5 @@
+// simulation of backend data
+
 let projectInfo =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nibh sit amet consequat accumsan, tortor metus imperdiet massa, eu blandit eros ex vitae metus. Morbi viverra bibendum ipsum, sit amet scelerisque.";
 

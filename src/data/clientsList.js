@@ -1,3 +1,5 @@
+// simulation of backend data
+
 export const clientsList = [
   { id: "1", name: "", img: "logo1" },
   { id: "2", name: "", img: "logo2" },
